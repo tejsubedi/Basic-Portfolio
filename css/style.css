@@ -25,6 +25,7 @@ header{
     min-height: 50px;
     border-bottom: solid #cccccc 3px;
 }
+
 header a{
     color: #34495E;
     text-decoration: none;
@@ -43,7 +44,7 @@ header #name h1{
 }
 header nav{
     float: right;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 header .highlight{
     background-color: #4aaaa5   ;
