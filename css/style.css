@@ -139,29 +139,30 @@ input[type=text], select, textarea {
   .size{
       width: 250px;
       height: 175px;
-      border-radius: 15px;
+      /* border-radius: 15px; */
   }
-  .flex {
+  div .flex {
       display: flex;
       justify-content: space-evenly;
       margin: 5px;
   }
-  .flex-1{
+  div .flex-1{
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
       margin: 5px;
   }
-  div.relative {
+  div .relative {
       position: relative;
-      left: -150px;
+      left: -170px;
       top: 120px;
-      color: #ffffff;
-      
-      
+      color: #ffffff; 
+      width: 115px;
+      height: 100px;
   }
   .relative p {
-      background-color: #666666;
-      font: 50px;
+      background-color: #239B56;
       font-weight: bold;
+      text-align: center;
+      justify-content: center;
   }
   
