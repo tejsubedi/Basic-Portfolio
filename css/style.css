@@ -21,7 +21,7 @@ header{
     background-color: #ffffff;
     color: #d8cfcf;
     padding-top:  30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     min-height: 50px;
     border-bottom: solid #cccccc 3px;
 }
@@ -34,7 +34,7 @@ header a{
 }
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 15px;
 }
 header #name{
     float: left;
@@ -53,8 +53,12 @@ header .highlight{
     padding-top: 5px;
     
 }
+.current a{
+    color: #239B56;
+    font-weight: bold;
+}
 header a:hover{
-    color: #239B56  ;
+    color: #e8491d;
     font-weight: bold;
 }
 #maincontent {
@@ -94,6 +98,7 @@ img{
     justify-content: space-around;
     flex-direction: row;
 }
+
 footer{
     padding: 10px;
     margin-top: 0px;
@@ -104,6 +109,7 @@ footer{
     position: fixed;
     width: 100%;
 }
+/* Contact Page */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -127,10 +133,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-
-  #main-page {
-      border: 1px solid blue;
-  }
+/* Portfolio main page */
   .size{
       width: 250px;
       height: 175px;
@@ -145,3 +148,4 @@ input[type=text], select, textarea {
       justify-content: space-evenly;
       margin: 5px;
   }
+  
