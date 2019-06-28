@@ -135,34 +135,33 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
 /* Portfolio main page */
-  .size{
-      width: 250px;
-      height: 175px;
-      /* border-radius: 15px; */
-  }
-  div .flex {
+  #flex {
       display: flex;
       justify-content: space-evenly;
-      margin: 5px;
+      margin: 0 5px;
   }
-  div .flex-1{
-      display: flex;
-      justify-content: space-around;
-      margin: 5px;
+  #flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
   }
-  div .relative {
+  .box-content {
+    width: 250px;
+    height: 200px;
+  }
+  .fixed {
+      position: fixed;
+      width: 250px;
+      height: 200px;
+  }
+  .hello {
       position: relative;
-      left: -170px;
-      top: 120px;
-      color: #ffffff; 
-      width: 115px;
-      height: 100px;
-  }
-  .relative p {
-      background-color: #239B56;
-      font-weight: bold;
+      z-index: 999;
+      background-color: green;
+      color: #ffffff;
+      border: 2px solid rgb(55, 0, 128);
+      top: 145px;
       text-align: center;
-      justify-content: center;
   }
-  
